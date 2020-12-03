@@ -33,6 +33,7 @@ public class Capsules {
         return colors;
     }
 
+
     public static void main(String[] args) {
         Capsules capsules = new Capsules();
 
@@ -52,5 +53,8 @@ public class Capsules {
         capsules.removeLast();
         System.out.println(capsules.getColors());
 
+        List<String> color1 = capsules.getColors();
+        color1.clear();
+        System.out.println(capsules.getColors());
     }
 }
