@@ -1,4 +1,4 @@
-package array.week05d02;
+package week05d02;
 
 public class ChangeLetter {
 
