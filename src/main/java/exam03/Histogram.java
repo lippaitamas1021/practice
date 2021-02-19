@@ -28,6 +28,7 @@ public class Histogram {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < number; i++) {
             sb.append('*');
+            //sb.append("*").repeat(number);
         }
         return sb.toString();
     }
