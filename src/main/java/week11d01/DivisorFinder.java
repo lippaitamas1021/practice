@@ -1,7 +1,5 @@
 package week11d01;
 
-import java.util.Arrays;
-
 public class DivisorFinder {
 
     public int findDivisors(int number) {
